@@ -1,0 +1,8 @@
+.oa-features ul {
+    list-style: none;
+}
+
+.oa-features ul li {
+    float: left;
+    margin-right: 10px
+}
