@@ -12,5 +12,5 @@ include(dirname(__FILE__) . '/../../init.php');
 
 $oa_features = Module::getInstanceByName('oa_features');
 if (Tools::getValue('id_feature')) {
-    $oa_features->deletePicto(Tools::getValue('id_feature'));
+    $oa_features->deletePicto((int)Tools::getValue('id_feature'));
 }
